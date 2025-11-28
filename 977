@@ -1,0 +1,12 @@
+class Solution(object):
+    def sortedSquares(self, nums):
+        sq = []
+        a = 0
+
+        for i in nums:
+            a = i ** 2
+            sq.append(a) 
+
+
+        sq.sort()
+        return sq
